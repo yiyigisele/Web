@@ -4,7 +4,7 @@
     "sources": [
         "estilos.scss",
         "_variables.scss",
-        "_condicional.scss",
+        "_mixin.scss",
         "_header.scss",
         "_tarjetas.scss",
         "_footer.scss",
