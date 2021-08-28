@@ -19,10 +19,12 @@
         font-size: 1.7rem;
 
         .navbar__a{
-            color:#eee;
+
+            @include size-a();
+            /*color:#eee;
             text-decoration: none;
             display: flex;
-            align-items: center;
+            align-items: center;*/
             
 
         }

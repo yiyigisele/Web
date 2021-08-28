@@ -1,8 +1,17 @@
-$ancho: 900px;
-
-@if col-md-8 == 66.66666667% {
-
-    .navbar__a{
-        color:red;
-    }   
+@mixin size-a {
+            color:#eee;
+            text-decoration: none;
+            display: flex;
+            align-items: center;
+            
 }
+
+
+
+
+
+
+
+
+
+
