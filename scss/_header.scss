@@ -1,0 +1,43 @@
+.navbar{
+    /*background-color:rgb(15, 15, 99);*/
+    background-color: $fondo-header;
+    /*
+    background-color:$fondo-menu;
+    */
+    height: 30rem;
+    
+    
+    
+
+    .navbar__img{
+        width: 270px;
+        height: 180px;
+    }
+
+    .navbar__var{
+        
+        font-size: 1.7rem;
+
+        .navbar__a{
+            color:#eee;
+            text-decoration: none;
+            display: flex;
+            align-items: center;
+            
+
+        }
+        
+        
+    }
+}
+
+
+
+
+
+
+    
+        
+    
+
+

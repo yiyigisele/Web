@@ -1,0 +1,39 @@
+.tarjetero{
+    background: rgb(255, 255, 255);
+    
+   
+}
+    
+    
+
+.contenedor-tarjetas{
+    display: flex;
+    justify-content: center;
+    margin-bottom: 150px;
+    
+
+    
+}
+
+.tarjeta img{
+    width: 150px;
+    
+    
+
+}
+
+.tarjeta{
+    text-align: center;
+    box-shadow: -1px 0px 5px rgb(134, 113, 224);
+    width: 80%;
+    height: 80%;
+    background: white;
+    /*margin-top: -100px;*/
+    padding: 40px 40px;
+    border-radius: 10px;
+    text-justify: auto;
+    margin-top: 150px;
+
+    
+}
+

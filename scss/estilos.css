@@ -1,0 +1,113 @@
+.navbar {
+  /*background-color:rgb(15, 15, 99);*/
+  background-color: #112C69;
+  /*
+    background-color:$fondo-menu;
+    */
+  height: 30rem;
+}
+
+.navbar .navbar__img {
+  width: 270px;
+  height: 180px;
+}
+
+.navbar .navbar__var {
+  font-size: 1.7rem;
+}
+
+.navbar .navbar__var .navbar__a {
+  color: #eee;
+  text-decoration: none;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.tarjetero {
+  background: white;
+}
+
+.contenedor-tarjetas {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  margin-bottom: 150px;
+}
+
+.tarjeta img {
+  width: 150px;
+}
+
+.tarjeta {
+  text-align: center;
+  -webkit-box-shadow: -1px 0px 5px #8671e0;
+          box-shadow: -1px 0px 5px #8671e0;
+  width: 80%;
+  height: 80%;
+  background: white;
+  /*margin-top: -100px;*/
+  padding: 40px 40px;
+  border-radius: 10px;
+  text-justify: auto;
+  margin-top: 150px;
+}
+
+.footer {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-pack: distribute;
+      justify-content: space-around;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  height: 100px;
+  background: #f7f305;
+}
+
+.footer .footer__img {
+  width: 30px;
+  height: 30px;
+}
+
+.footer .footer__img .footer_telefono {
+  margin: 50px;
+  padding: 50px;
+}
+
+.zoom:hover {
+  -webkit-transform: scale(1.1);
+          transform: scale(1.1);
+}
+
+.titulo {
+  display: block;
+  width: 1000vw;
+  color: blanchedalmond;
+  text-align: center;
+}
+
+.titulo .titulo_principal {
+  font-size: 4rem;
+}
+
+.titulo .titulo_sub {
+  font-size: 2rem;
+}
+
+.menuhamburguesa {
+  width: 50px;
+  height: 50px;
+}
+
+.link {
+  text-decoration: none;
+}
+/*# sourceMappingURL=estilos.css.map */

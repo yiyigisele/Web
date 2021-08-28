@@ -1,0 +1,255 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Técnica N°2</title>
+    
+    <!--LINK BOOTSTRAP-->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.0/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-KyZXEAg3QhqLMpG8r+8fhAXLRk2vvoC2f3B09zVXn8CA5QIVfZOJ3BCsw2P0p/We" crossorigin="anonymous">
+    <!--LINK CSS-->
+    <link rel="stylesheet" href="scss/estilos.css">
+</head>
+<body class="vh-100 ">
+    
+    <!--HEADER-->
+
+    <header class=" navbar  ">
+        <div class="container ">
+           
+          <div class="row justify-content-between w-100 ">
+                
+                <img class="col-sm-4 navbar__img" src="imagenes/tecnica2cb.png" alt="logo">
+                
+
+                <nav class="d-none d-md-flex col-sm-6  col-md-8 navbar__var d-flex justify-content-between ">
+                    <a class="navbar__a" href="index.html">Inicio</a>
+                    <a class="navbar__a" href="calendarioE.html">Calendario Escolar</a>
+                    <a class="navbar__a" href="gabinete.html">Gabinete</a>
+                    <a class="navbar__a" href="contacto.html">Contactos</a>
+                    
+                </nav>
+             
+
+           
+  
+        <!--DROPDOWN BUTTON--> 
+                <div class="dropdown d-md-none col-6 align-items-center row">
+                    <button class="btn btn-secondary dropdown-toggle" type="button" id="dropdownMenuButton1" data-bs-toggle="dropdown" aria-expanded="false">
+                        <img class="menuhamburguesa" src="imagenes/menu-square-button_icon-icons.com_73216.png" alt="">
+                    </button>
+                    <ul class="dropdown-menu" aria-labelledby="dropdownMenuButton1">
+                    <li><a class="dropdown-item" href="index.html">Inicio</a></li>
+                    <li><a class="dropdown-item" href="calendarioE.html">Calendario Escolar</a></li>
+                    <li><a class="dropdown-item" href="gabinete.html">Gabinete</a></li>
+                    <li><a class="dropdown-item" href="contacto.html">Contactos</a></li>
+                    </ul>
+                </div>
+            </div>    
+       </div>
+
+       <div class="titulo">
+           <h1 class="titulo_principal">NOSOTROS</h1>
+           
+       </div>
+
+
+    </header>
+
+    <!--FIN HEADER-->
+
+    <!--MAIN-->
+    <main>
+        <!--SECCION 1-->
+        <section >
+
+            <div class="tarjetero row">
+                <div class="zoom contenedor-tarjetas col-12 col-sm-4 col-md-4">
+                    <div class="tarjeta">
+                        <img " src="imagenes/equipodirectivo.png" alt="Imagen-equipo-de-conducción">
+                        <h3>Equipo de Conducción</h3>
+                        <p>El equipo de conducción, esta compuesto por:</p>
+                        <p>Director</p>
+                        <p>Vice Directores</p>
+                        <p>Secretaria</p>
+                        <p>Pro secretaria</p>
+                        <p>Jefes de áreas</p>
+                        <a class="link" href="#equi">Click para más</a>
+                    </div>    
+                </div>
+
+                <div class=" zoom contenedor-tarjetas col-12 col-sm-4 col-md-4">
+                    <div class="tarjeta">
+                        <img src="imagenes/colegio.png" alt="Imagen-ta">
+                        <h3>Proyecto Institucional</h3>
+                        <p>El proyecto institucional es la herramienta que tiene la institución escolar para explicitar sus propuestas generales.</p>
+                        <a class="link" href="archivos/PI EN CONSTRUCCIÓN 2020.doc">Click para más</a>
+                    </div>    
+                </div>
+
+                <div class="zoom contenedor-tarjetas col-12 col-sm-4 col-md-4">
+                    <div class="tarjeta">
+                        <img src="imagenes/gestion-de-riesgos.png" alt="Imagen-cb">
+                        <h3>Plan de Gestión de Riesgos</h3>
+                        <p>El Plan de Gestión del Riesgos (PGR) de la institución educativa es un programa de actividades que pretende dar a conocer y poner en práctica, estrategias, conceptos y metodologías para poder reducir riesgos, prevenir desastres, y responder a posibles desastres que se presenten en el entorno escolar.</p>
+                        <a class="link" href="#proy">Click para más</a>
+                    </div>    
+                </div>
+
+                
+            </div>        
+        </section>
+        <!--FIN SECCION 1-->
+
+        <!--SECCION 2-->
+        <section class="bg-black bg-opacity-75">
+            <div class=" row justify-content-center  m-5 p-5" id="equi">
+
+                <div class="card col-12  m-5 zoom" style="width: 18rem;">
+                    <img src="imagenes/such222.jpg" class="card-img-top" alt="director">
+                    <div class="card-body  bg-black bg-opacity-50">
+                        <h5>Alfredo Hugo Such</h5>
+                        <h6>Director</h6>
+                        <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                    </div>
+                </div>
+            </div>   
+            <div class="row row justify-content-center  ">
+
+                <div class="card m-5 zoom " style="width: 18rem;">
+                    <img src="imagenes/patri.jpg" class="card-img-top" alt="Vice Directora TM">
+                    <div class="card-body bg-black bg-opacity-50">
+                        <h5>Patricia Altamirano</h5>
+                        <h6>Vice Directora TM</h6>
+                        <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                    </div>
+                </div>
+                
+                <div class="card  m-5 zoom" style="width: 18rem;">
+                    <img src="imagenes/carlos.jpg" class="card-img-top" alt="Vice Director TT">
+                    <div class="card-body bg-black bg-opacity-50">
+                        <h5>Calor Chevillard </h5>
+                        <h6>Vice Director TT</h6>
+                        <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                    </div>
+                </div>
+                
+                <div class="card  m-5 zoom" style="width: 18rem;">
+                    <img src="imagenes/alberto.jpg" class="card-img-top" alt="Vice Director TV">
+                    <div class="card-body bg-black bg-opacity-50">
+                        <h5>Alberto Ammigo</h5>
+                        <h6>Vice Director TV</h6>
+                        <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                    </div>
+                </div>
+                
+            </div>
+
+            <div class="row row justify-content-center    m-5 p-15">
+
+                <div class="card  m-5 zoom" style="width: 18rem;">
+                    <img src="imagenes/lucianat2.png" class="card-img-top" alt="Secretaria">
+                    <div class="card-body bg-black bg-opacity-50">
+                        <h5>Luciana Aranda</h5>
+                        <h6>Secretaria</h6>
+                        <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                    </div>
+                </div>
+                
+                <div class="card  m-5 zoom" style="width: 18rem;">
+                    <img src="imagenes/eugenia.jpg" class="card-img-top" alt="Pro secretaria">
+                    <div class="card-body bg-black bg-opacity-50">
+                        <h5>Eugenia Bernardo</h5>
+                        <h6>Pro secretaria</h6>
+                        <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                    </div>
+                </div>
+                
+            </div>
+
+            <div class="row d-flex justify-content-center">
+
+                <div class="card  m-5 zoom" style="width: 18rem;">
+                    <img src="imagenes/pppppppppppp.jpg" class="card-img-top" alt="Jefe de Área de Ciclo Básico">
+                    <div class="card-body bg-black bg-opacity-50">
+                        <h5>Hugo Navarro</h5>
+                        <h6>Jefe de Área de Ciclo Básico</h6>
+                        <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                    </div>
+                </div>
+                
+                <div class="card  m-5 zoom" style="width: 18rem;">
+                    <img src="imagenes/pppppppppppp.jpg" class="card-img-top" alt="Jefe de Área de construccion">
+                    <div class="card-body bg-black bg-opacity-50">
+                        <h5>Domingo Varcasia</h5>
+                        <h6>Jefe de Área de construccion</h6>
+                        <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                    </div>
+                </div>
+                
+                
+                
+                <div class="card  m-5 zoom" style="width: 18rem;">
+                    <img src="imagenes/pppppppppppp.jpg" class="card-img-top" alt="Jefe de Área de Automotor">
+                    <div class="card-body bg-secondary bg-gradient bg-opacity-50">
+                        <h5>Lucas Asencio</h5>
+                        <h6>Jefe de Área de Automotor</h6>
+                        <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                    </div>
+                </div>
+                
+            </div>
+                
+                
+                
+                
+        </section>
+        <!--FIN SECCION 2-->
+    </main>
+    <!--FIN MAIN-->
+   
+    <!--FOOTER-->
+    
+    <footer class="row " >
+        
+        
+        <div class="footer col-6 col-sm-3 col-md-3">
+                <a href="https://www.facebook.com/latecnicados">
+                    <img class=" zoom footer__img" src="imagenes/facebook.png" alt="facebook">
+                </a>
+                    
+            </div>
+            <div class=" footer col-6 col-sm-3 col-md-3">
+               <a href="https://www.instagram.com/latecnicados/?hl=es"">
+                   <img class="zoom footer__img" src="imagenes/instagram.png" alt="instagram">
+               </a> 
+            </div>
+            <div class=" footer col-6 col-sm-3 col-md-3">
+                <img class=" zoom footer__img" src="imagenes/correo-electronico.png" alt="correo">
+            </div>
+            <div class=" footer col-6 col-sm-3 col-md-3 d-flex flex-column p-0 m-0">
+               <a href="tecnica2lamatanza@abc.gob.ar">
+                   <img class=" zoom footer__img " src="imagenes/telefono.png" alt="telefono">
+               </a> 
+                <div class="footer__telefono">
+                    <h6>4487-0175</h6>
+                    
+                </div>
+            </div>
+            <!--SECCION 3-->
+            <section id="proy">
+                
+            </section>
+            <!--FIN SECCION 3-->
+       
+            
+            
+            
+        </footer>
+        
+    <!--FIN FOOTER-->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.0/dist/js/bootstrap.bundle.min.js" integrity="sha384-U1DAWAznBHeqEIlVSCgzq+c9gqGAJn5c/t99JyeKa9xxaYpSvHU5awsuZVVFIhvj" crossorigin="anonymous"></script>
+    
+</body>
+</html>
