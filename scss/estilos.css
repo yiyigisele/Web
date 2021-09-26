@@ -1,9 +1,5 @@
 .navbar {
-  /*background-color:rgb(15, 15, 99);*/
   background-color: #112C69;
-  /*
-    background-color:$fondo-menu;
-    */
   height: 30rem;
 }
 
@@ -29,6 +25,10 @@
             text-decoration: none;
             display: flex;
             align-items: center;*/
+}
+
+.boton {
+  width: 90px;
 }
 
 .tarjetero {

@@ -1,9 +1,7 @@
 .navbar{
-    /*background-color:rgb(15, 15, 99);*/
+   
     background-color: $fondo-header;
-    /*
-    background-color:$fondo-menu;
-    */
+    
     height: 30rem;
     
     
@@ -17,7 +15,7 @@
     .navbar__var{
         
         font-size: 1.7rem;
-        
+
 
         .navbar__a{
 
@@ -32,6 +30,10 @@
         
         
     }
+}
+
+.boton{
+    width: 90px;
 }
 
 
