@@ -119,4 +119,20 @@
   background-color: #112C69;
   margin-bottom: 30px;
 }
+
+/*@media (min-width: 992px){
+    .container{
+        flex-direction: column;
+        justify-content: space-around;
+    }
+
+    @media screen and (max-width:400px){
+
+        .titulo_principal{
+            
+            color: aqua;
+            font-size: 2rem;
+        }
+        
+    }*/
 /*# sourceMappingURL=estilos.css.map */
