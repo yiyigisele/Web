@@ -104,7 +104,7 @@
 }
 
 .titulo .titulo_sub {
-  font-size: 2rem;
+  font-size: 3rem;
 }
 
 .menuhamburguesa {
@@ -140,4 +140,23 @@
         }
         
     }*/
+.secciongabinete {
+  margin-bottom: 30px;
+}
+
+.titulogabinete {
+  text-align: center;
+  margin-bottom: 30px;
+}
+
+.texto {
+  text-align: justify;
+  margin-bottom: 60px;
+}
+
+.fondotransparente {
+  border-radius: 15px;
+  background-color: #112b691c;
+  padding: 40px;
+}
 /*# sourceMappingURL=estilos.css.map */
